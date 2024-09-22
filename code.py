@@ -1,6 +1,6 @@
-!pip install python-telegram-bot
-!pip install pdfplumber
-!pip install transformers
+pip install python-telegram-bot
+pip install pdfplumber
+pip install transformers
 
 
 import telegram
