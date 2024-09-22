@@ -57,7 +57,7 @@ async def handle_document(update: Update, context):
         await update.message.reply_text("Please send a PDF file.")
 
 def main():
-    TOKEN = "7042726869:AAGSULatZVDi0nQjYMUvrEODOTSFPomf5ck" 
+    TOKEN = "enter-your-token" #my token is hidden for security purposes 
     application = ApplicationBuilder().token(TOKEN).build()
 
     application.add_handler(CommandHandler("start", start))
